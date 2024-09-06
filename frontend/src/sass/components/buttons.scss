@@ -2,12 +2,14 @@
     background-color: #D67E20;
     padding: 8px;
     color: white;
+    transition: all 0.2s ease;
 }
 
 .primary-button:hover{
     background-color: #854E14;
     color: white;
     cursor: pointer;
+    
 }
 
 .primary-button:active{
