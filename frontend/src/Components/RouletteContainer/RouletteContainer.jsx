@@ -7,7 +7,7 @@ export const RouletteContainer = () => {
     const [rotationAngle, setRotationAngle] = useState(0)
 
     const rollRoulette = (number) => {
-        const numberAngle = (number * 3.6 * -1) + 3.6 + 1080; // le tengo que sumar un 3.6 porque la ruleta comienza en 1, no en 0
+        const numberAngle = (number * 3.6 * -1) + 3.6 + 1080; // le tengo que sumar un 3.6 porque la ruleta comienza en 1, no en 0. Gira a contrarreloj para crecer en valor.
         setRotationAngle(numberAngle);
     };;
 
