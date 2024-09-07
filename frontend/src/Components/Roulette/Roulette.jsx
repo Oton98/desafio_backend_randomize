@@ -1,11 +1,15 @@
 import React from 'react';
 
-export const Roulette = () => {
+export const Roulette = ({rotationAngle}) => {
 
     const numbers = Array.from({ length: 100 }, (_, i) => i + 1);
 
     return (
-        <div className="roulette">
+        <div className="roulette" style={{
+            transform: `rotate(${rotationAngle}deg)`,
+            transition:'transform 6s cubic-bezier(0.2, 0.8, 0.7, 0.99)'
+            }}>
+            
           {numbers.map((number, i) => (
             <div
               key={i}

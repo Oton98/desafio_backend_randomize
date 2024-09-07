@@ -3,3 +3,4 @@
 5hs funcionalidades de React (hooks y funciones)
 2 hs crear componentes y modulos de sass
 1 hs solucionar problema de cors de back
+2 hs crear ruleta
