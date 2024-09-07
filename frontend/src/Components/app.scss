@@ -1,8 +1,7 @@
 @import "../sass/base/reset.scss";
 
-@import "../sass/components/buttons.scss";
-@import "../sass/components/input.scss";
+@import "../Components/Navbar/navbar.scss";
+@import "../Components/RouletteContainer/rouletteContainer.scss";
+@import "../Components/Roulette/roulette.scss";
+@import "../Components/Footer/footer.scss";
 
-@import "../sass/layout/navbar.scss";
-@import "../sass/layout/body.scss";
-@import "../sass/layout/footer.scss";

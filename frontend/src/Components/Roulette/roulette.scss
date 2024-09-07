@@ -1,0 +1,39 @@
+.roulette {
+    position: relative;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .circle-item {
+    position: absolute;
+    transform-origin: center;
+    width: 30px;
+    height: calc(50% - 10px);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+    padding-top: 8px;
+    background-color: red;
+    border-top: 5px solid green;
+    clip-path: polygon(0 0, 100% 0, 50% 100%);
+    transform: translate(-50%, -100%) rotate(0deg);
+  }
+  
+  .center-circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 150px;  
+    height: 150px;
+    background: radial-gradient(circle, rgb(92, 92, 92), rgb(156, 156, 156));
+    border-radius: 50%;
+    z-index: 1;
+    border: 2px solid black;
+  }

@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(241, 241, 241);
+    height: 100vh;
+    row-gap: 64px;
+
+    &-buttons{
+
+        display: flex;
+        flex-direction: row;
+        column-gap: 24px;
+
+        .spin-button {
+                background-color: #D67E20;
+                padding: 8px;
+                color: white;
+                transition: all 0.2s ease;
+            }
+        
+            .spin-button:hover {
+                background-color: #854E14;
+                color: white;
+                cursor: pointer;
+        
+            }
+        
+            .spin-button:active {
+                background-color: #5C360E;
+                color: white;
+                cursor: pointer;
+            }
+        
+            .random-number-text {
+                text-align: center;
+            }
+    }
+
+    
+}
