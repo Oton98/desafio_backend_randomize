@@ -14,7 +14,7 @@ export const RouletteContainer = () => {
     const handleClick = async () => {
         const number = await callNumber();
         rollRoulette(number);
-        setNumber(number);
+        setNumber(number.toString());
     };
 
     return (

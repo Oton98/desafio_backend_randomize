@@ -1,6 +1,2 @@
--Reparar estilos 
--Agregar Ruleta
--Agregar Test front
--Agregar Middleware -backend registrar timestamps (hora de la request). 
 -Agregar DockerFile
 -Crear Repo. 

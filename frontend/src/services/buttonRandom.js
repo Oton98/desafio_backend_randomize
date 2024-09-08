@@ -5,7 +5,7 @@ export async  function callNumber() {
         });
 
         const body = await response.json();
-        return body.value;
+        return parseInt(body.value);
 
     } catch (error){
         console.error('Error on receive number', error)
